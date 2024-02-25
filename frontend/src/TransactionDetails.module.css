@@ -1,0 +1,27 @@
+/* TransactionDetails.module.css */
+
+.transactionDetails {
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .transactionField {
+    margin: 10px 0;
+  }
+  
+  .transactionField span {
+    font-weight: bold;
+  }
+  
+  .loading {
+    color: #fff;
+  }
+  
+  .error {
+    color: red;
+  }
+  

@@ -1,0 +1,39 @@
+/* src/TransactionForm.module.css */
+
+.formContainer {
+    padding: 20px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjust width based on padding and border */
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  .transactionData {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
